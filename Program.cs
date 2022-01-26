@@ -12,7 +12,7 @@ namespace DIO.POO
             Console.WriteLine(arus);
             Console.WriteLine(arus.Attack());
             Console.WriteLine(jenica);
-            Console.WriteLine(jenica.Attack());
+            Console.WriteLine(jenica.Attack(2));
         }
     }
 }
