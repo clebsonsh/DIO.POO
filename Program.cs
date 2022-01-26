@@ -1,4 +1,5 @@
 ﻿using System;
+using DIO.POO.src.Entities;
 
 namespace DIO.POO
 {
@@ -6,7 +7,8 @@ namespace DIO.POO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Arus hero = new Arus("Arus", 23, "Knight");
+            Console.WriteLine(hero);
         }
     }
 }
